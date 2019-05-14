@@ -124,4 +124,4 @@ const deleteAuthor = (id) =>{
     });
 }
 // EJECUCION DELETE
-// deleteAuthor(2586).then(respuesta => console.log(respuesta)).catch(err => console.log(err));
+deleteAuthor(2586).then(respuesta => console.log(respuesta)).catch(err => console.log(err));
